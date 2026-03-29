@@ -12,3 +12,11 @@ Neither white nor black can color us… we are BRUN.
 | ボディ(Body) | 飲み物としての重量感や飲み応え |
 | 質感(Texture) | 口当たり。フォームミルクのきめ細かさやとろみ感 |
 | 香り(Aroma) | 香りがどれくらい印象に残るか |
+
+## Tasting
+
+```sh
+goyokiki
+```
+
+- [kotaoue/goyokiki](https://github.com/kotaoue/goyokiki)
