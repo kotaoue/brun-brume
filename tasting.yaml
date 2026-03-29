@@ -1,0 +1,76 @@
+questions:
+  - title: "お店"
+    type: free
+
+  - title: "URL"
+    type: free
+
+  - title: "メニュー名"
+    type: free
+
+  - title: "Ice or Hot"
+    type: single
+    options:
+      - Ice
+      - Hot
+
+  - title: "甘み(Sweetness)"
+    type: single
+    options:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+
+  - title: "苦み(Bitterness)"
+    type: single
+    options:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+
+  - title: "酸味(Acidity)"
+    type: single
+    options:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+
+  - title: "コク(Body)"
+    type: single
+    options:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+
+  - title: "質感(Texture)"
+    type: single
+    options:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+
+  - title: "香り(Aroma)"
+    type: single
+    options:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+
+  - title: "総合評価(Overall)"
+    type: single
+    options:
+      - 好き
+      - 大好き
+      - 最高
