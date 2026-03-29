@@ -11,3 +11,4 @@ Neither white nor black can color us… we are BRUN.
 | 酸味(Acidity) | フルーティーな酸味。浅煎り感 |
 | ボディ(Body) | 飲み物としての重量感や飲み応え |
 | 質感(Texture) | 口当たり。フォームミルクのきめ細かさやとろみ感 |
+| 香り(Aroma) | 香りがどれくらい印象に残るか |
