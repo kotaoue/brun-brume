@@ -1,23 +1,30 @@
 ---
 name: Tasting
 about: コーヒーのテイスティングノートを記録する
-title: "{お店}:{メニュー名}"
+title: "{提供元}:{メニュー名}"
 labels: ''
 assignees: ''
 ---
 
-# お店: 
+## 形式
 
-# URL: 
+- [ ] イートイン
+- [ ] テイクアウト
+- [ ] RTD
+- [ ] 濃縮
 
-# メニュー名: 
+## 提供元
 
-# Ice or Hot: 
+## URL
+
+## メニュー名
+
+## Ice or Hot
 
 - [ ] Ice
 - [ ] Hot
 
-# 甘み(Sweetness): 
+## 甘み(Sweetness)
 
 - [ ] 1
 - [ ] 2
@@ -25,7 +32,7 @@ assignees: ''
 - [ ] 4
 - [ ] 5
 
-# 苦み(Bitterness): 
+## 苦み(Bitterness)
 
 - [ ] 1
 - [ ] 2
@@ -33,7 +40,7 @@ assignees: ''
 - [ ] 4
 - [ ] 5
 
-# 酸味(Acidity): 
+## 酸味(Acidity)
 
 - [ ] 1
 - [ ] 2
@@ -41,7 +48,7 @@ assignees: ''
 - [ ] 4
 - [ ] 5
 
-# コク(Body): 
+## コク(Body)
 
 - [ ] 1
 - [ ] 2
@@ -49,7 +56,7 @@ assignees: ''
 - [ ] 4
 - [ ] 5
 
-# 質感(Texture): 
+## 質感(Texture)
 
 - [ ] 1
 - [ ] 2
@@ -57,7 +64,7 @@ assignees: ''
 - [ ] 4
 - [ ] 5
 
-# 香り(Aroma): 
+## 香り(Aroma)
 
 - [ ] 1
 - [ ] 2
@@ -65,7 +72,7 @@ assignees: ''
 - [ ] 4
 - [ ] 5
 
-# 総合評価(Overall): 
+## 総合評価(Overall)
 
 - [ ] 好き
 - [ ] 大好き
