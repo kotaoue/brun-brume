@@ -1,3 +1,3 @@
 question_file: tasting.yaml
 output_path: ./tastings
-output_filename: "{ANSWER_1}:{ANSWER_3}"
+output_filename: "{ANSWER_2}:{ANSWER_3}"

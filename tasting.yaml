@@ -1,11 +1,19 @@
 questions:
-  - title: "お店"
-    type: free
+  - title: "形式"
+    type: single
+    options:
+      - イートイン
+      - テイクアウト
+      - RTD
+      - 濃縮
 
-  - title: "URL"
+  - title: "提供元"
     type: free
 
   - title: "メニュー名"
+    type: free
+
+  - title: "URL"
     type: free
 
   - title: "Ice or Hot"
