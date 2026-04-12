@@ -1,0 +1,31 @@
+name: Save Tasting Note
+
+on:
+  issues:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  save-tasting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse issue and save tasting note
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python .github/scripts/issue_to_tasting.py
+
+      - name: Commit and push
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tastings/
+          git diff --staged --quiet || git commit -m "Add tasting note: ${ISSUE_TITLE}"
+          git push
