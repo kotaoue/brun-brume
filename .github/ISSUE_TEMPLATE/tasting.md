@@ -2,7 +2,7 @@
 name: Tasting
 about: コーヒーのテイスティングノートを記録する
 title: "{提供元}:{メニュー名}"
-labels: ''
+labels: 'Tasting'
 assignees: ''
 ---
 
