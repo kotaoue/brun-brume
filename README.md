@@ -2,16 +2,16 @@
 
 Neither white nor black can color us… we are BRUN.
 
-## 味の判断基準
+## Tasting Profile
 
-| 項目 | 内容 |
+| Attribute / 属性 | Notes / 説明 |
 | ---- | --- |
-| 甘み(Sweetness) | 全体に感じる甘み |
-| 苦み(Bitterness) | コーヒー的な苦み。深煎り感 |
-| 酸味(Acidity) | フルーティーな酸味。浅煎り感 |
-| ボディ(Body) | 飲み物としての重量感や飲み応え |
-| 質感(Texture) | 口当たり。フォームミルクのきめ細かさやとろみ感 |
-| 香り(Aroma) | 香りがどれくらい印象に残るか |
+| Sweetness / 甘み | Perceived sweetness across the palate. / 全体に感じる甘み |
+| Bitterness / 苦み | Coffee-like bitterness and depth from roasting. / コーヒー的な苦み。深煎り感 |
+| Acidity / 酸味 | Fruity acidity and light roast character. / フルーティーな酸味。浅煎り感 |
+| Body / ボディ | Weight and fullness of the beverage. / 飲み物としての重量感や飲み応え |
+| Texture / 質感 | Mouthfeel including milk foam fineness and viscosity. / 口当たり。フォームミルクのきめ細かさやとろみ感 |
+| Aroma / 香り | How memorable and impactful the aroma is. / 香りがどれくらい印象に残るか |
 
 ## Tasting
 
