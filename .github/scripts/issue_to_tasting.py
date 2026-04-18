@@ -44,6 +44,14 @@ def parse_issue_body(body):
     return {k: v[0] if v else "" for k, v in sections.items()}
 
 
+def extract_from_title(title):
+    """Extract provider and menu name from a title formatted as '提供元:メニュー名'."""
+    if ":" in title:
+        idx = title.index(":")
+        return title[:idx].strip(), title[idx + 1:].strip()
+    return "", ""
+
+
 def main():
     title = os.environ.get("ISSUE_TITLE", "")
     body = os.environ.get("ISSUE_BODY", "")
@@ -53,6 +61,13 @@ def main():
         sys.exit(1)
 
     sections = parse_issue_body(body)
+
+    if not sections.get("提供元") or not sections.get("メニュー名"):
+        provider, menu_name = extract_from_title(title)
+        if not sections.get("提供元") and provider:
+            sections["提供元"] = provider
+        if not sections.get("メニュー名") and menu_name:
+            sections["メニュー名"] = menu_name
 
     if not REQUIRED_SECTIONS.issubset(sections.keys()):
         print("Not a tasting issue – skipping.")
