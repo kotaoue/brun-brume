@@ -3,7 +3,7 @@
 - 形式: テイクアウト
 - 提供元: TAKAO COFFEE
 - メニュー名: カフェラテ
-- URL: https://takao-coffee.com
+- URL: <https://takao-coffee.com>
 - Ice or Hot: Hot
 - 甘み(Sweetness): 3
 - 苦み(Bitterness): 4
